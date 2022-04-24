@@ -2,12 +2,14 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { HomepageComponent } from './homepage/homepage.component';
+import { SocialiconsComponent } from './socialicons/socialicons.component';
+import { AboutmeComponent } from './aboutme/aboutme.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomepageComponent
+    SocialiconsComponent,
+    AboutmeComponent,
   ],
   imports: [
     BrowserModule
