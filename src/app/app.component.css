@@ -1,3 +1,25 @@
-*{
-  font-family: "Fira Sans", sans-serif;
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.left-content {
+  width: 50%;
+  background-color: aquamarine;
+}
+
+.right-content {
+  width: 50%;
+  background-color: chocolate;
+}
+
+@media only screen and (max-width: 680px) {
+  .container {
+    display: block;
+  }
+
+  .left-content, .right-content {
+    width: 100%;
+  }
 }
