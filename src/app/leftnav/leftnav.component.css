@@ -1,4 +1,72 @@
 .title {
+  color: white;
+  font-weight: normal;
   font-size: 25px;
+}
+
+.subtitle {
+  font-size: 15px;
+  color: white;
+  margin: 0;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 58%;
+  /*width: 50%;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    display: block;
+    position: relative;
+    bottom: auto;
+    left: 30%;
+    right: auto;
+    width: 100%;
+  }
+}
+
+.photo {
+  max-width: 130px;
+  border-radius: 50%;
+  padding-bottom: 20px;
+}
+
+#titles {
+  max-width: 200px;
+}
+
+#titles ul {
   margin-left: 5px;
+}
+
+#icons {
+  padding-top: 12px;
+}
+
+#icons a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#icons a, #icons a img {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  padding-top: 5px;
+}
+
+#icons a img {
+  filter: grayscale(75%);
+}
+
+#icons a img:hover {
+  filter: grayscale(0%);
 }

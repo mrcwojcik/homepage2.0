@@ -1,0 +1,89 @@
+h2 {
+  font-weight: bold;
+}
+
+#content {
+  position: absolute;
+  left: 50%;
+  width: 50%;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 600px) {
+  #content {
+    display: block;
+    position: relative;
+    bottom: auto;
+    left: 30%;
+    right: auto;
+    width: 100%;
+  }
+}
+
+
+section p {
+  width: 550px;
+  padding-bottom: 10px;
+  font-size: 15px;
+  text-align: justify;
+  color: white;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+section h2 {
+  height: 30px;
+}
+
+section ul {
+  line-height: 22px;
+  list-style: none;
+  padding-top: 2px;
+  padding-bottom: 15px;
+}
+
+section ul a {
+  color: #7A7C80;
+  text-decoration: none;
+  font-weight: bold;
+}
+section ul a:hover {
+  color: #adb0b6;
+}
+
+a.more {
+  font-size: 16px;
+  text-decoration: none;
+}
+
+a.more {
+  color: white;
+}
+
+a.more:hover {
+  color: #adb0b6;
+}
+
+.homeback {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+
+#dreamList {
+  position: absolute;
+  top:0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.doneDream {
+  text-decoration: line-through;
+}
