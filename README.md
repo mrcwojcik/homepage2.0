@@ -12,3 +12,5 @@ Funkcjonalności planowane:
 - pobieranie i prezentowanie logów o aktywności na githubie
 
 Frontend ma być dostosowany mobilnie i pozwalający na łatwe i szybkie rozwijanie.
+
+Bazowy projekt html/css: https://github.com/mrcwojcik/homepage
